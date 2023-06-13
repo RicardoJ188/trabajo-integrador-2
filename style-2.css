@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+section {
+  background-color: #c9d7e3; 
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja-search,
+.caja-logo {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f8f0d9; 
+  border-radius: 10px;
+  text-align: center;
+}
+
+.caja-search form,
+.caja-logo img {
+  max-width: 100%;
+}
+
+.caja-search input[type="text"] {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff; 
+}
+
+.caja-search input[type="text"]::placeholder {
+  color: #333; 
+}
+
+.caja-search input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(140, 74, 72, 0.5); 
+}
+
+.caja-logo img {
+  border-radius: 50%;
+}
+
+#caja-slogan {
+  text-align: center;
+  padding: 20px;
+  background-image: url("img/araucaria.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-color: #f2d3cb; 
+  border-radius: 10px;
+}
+
+#caja-slogan h1 {
+  background-color: #d2691e; 
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  font-family: sans-serif; 
+  color: #fff; 
+  transition: transform 0.3s ease-in-out; 
+}
+
+#caja-slogan h1:hover {
+  transform: scale(1.1); 
+}
+
+.container-nav {
+  display: flex;
+}
+li {
+  display: inline;
+  margin-right: 30px;
+  margin-left: 30px;
+  align-items: center;
+  font-size: medium;
+  justify-content: space-between;
+}
+#caja-lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+  background-color: rgb(160, 241, 171);
+  margin-right: 30px;
+  margin-left: 30px;
+}
+#caja-navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 100px;
+  background-color: rgb(144, 225, 250);
+  margin-right: 30px;
+  margin-left: 30px; 
+}
+.texto-enlaces {
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  color: #8c4a48;
+  background-color: #f8f0d9;
+  padding: 10px;
+  border: 2px solid #8c4a48;
+  border-radius: 5px;
+  text-decoration: underline;
+}
+.carousel-container {
+  text-align: center;
+  overflow-x: scroll;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.carousel {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.carousel img {
+  width: 500px;
+  height: 400px;
+}
+
+.carousel-buttons {
+  margin-top: 10px;
+}
+
+.carousel-button {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ccc;
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.prev-button {
+  transform: rotate(180deg);
+}
+.caja-secundaria {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(10, 45, 245);
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+#caja1 {
+  background-color: #c9d7e3; 
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#caja1 h2 {
+  font-family: 'Sanscript', sans-serif;
+  font-size: 24px;
+  color: #8c4a48; 
+  margin-bottom: 20px;
+}
+
+#texto-nosotros {
+  font-family: 'Sanscript', sans-serif;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#texto-nosotros em {
+  font-style: italic;
+}
+
+#texto-nosotros strong {
+  font-weight: bold;
+}
+
+h2 {
+  font-family: cursive;
+  font-size: 25px;
+  color:rgb(1, 87, 12)
+}
+#caja2 {
+  background-color: #f2d3cb;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#caja2 h2 {
+  font-family: 'Sanscript', sans-serif;
+  font-size: 24px;
+  color: #8c4a48; 
+  margin-bottom: 20px;
+}
+
+.catalogo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.catalogo div {
+  flex-basis: 200px;
+  margin-bottom: 20px;
+}
+
+.catalogo h3 {
+  font-family: 'Sanscript', sans-serif;
+  font-size: 16px;
+  color: #333; 
+  margin-bottom: 10px;
+}
+
+.catalogo img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.catalogo div:nth-child(odd) {
+  background-color: #a4d2b6; 
+}
+
+.catalogo div:nth-child(even) {
+  background-color: #f8f0d9; 
+}
+#caja3 {
+  background-color: #f2d3cb; 
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#caja3 h2 {
+  font-family: 'Sanscript', sans-serif;
+  font-size: 24px;
+  color: #8c4a48; 
+  margin-bottom: 20px;
+}
+
+.form label {
+  font-family: 'Sanscript', sans-serif;
+  font-size: 16px;
+  color: #333; 
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form textarea {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f8f0d9; 
+}
+
+.form textarea {
+  height: 100px;
+}
+
+.form button {
+  background-color: #a4d2b6; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: 'Sanscript', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #8c4a48; 
+}
